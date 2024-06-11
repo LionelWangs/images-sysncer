@@ -29,4 +29,4 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-        skopeo copy docker://docker.io/1995chen/dnf:centos7-2.1.4.fix1 docker://registry.cn-hangzhou.aliyuncs.com/lionel2948/dnf:centos7-2.1.4.fix1
+        skopeo copy docker://docker.io/mysql docker://registry.cn-hangzhou.aliyuncs.com/mysql:5.7.29
