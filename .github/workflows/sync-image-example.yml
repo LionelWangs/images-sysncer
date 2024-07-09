@@ -29,4 +29,4 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-        skopeo copy docker://docker.io/mysql docker://registry.cn-hangzhou.aliyuncs.com/mysql:5.7.29
+        skopeo copy docker://docker.io/rapidfort/tomcat10-openjdk17-ib docker://registry.cn-hangzhou.aliyuncs.com/jdk17
